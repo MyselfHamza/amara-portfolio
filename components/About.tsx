@@ -95,7 +95,7 @@ export default function About() {
 
               {/* Mini stats — stock-ticker columns divided by gold lines */}
               <div
-                className="mt-12 sm:mt-14 inline-flex divide-x divide-gold/30 border-y border-gold/20"
+                className="mt-12 sm:mt-14 flex flex-wrap sm:inline-flex sm:flex-nowrap divide-x divide-gold/30 border-y border-gold/20 max-w-full"
                 style={{ fontVariantNumeric: "tabular-nums" }}
               >
                 {[
@@ -105,7 +105,7 @@ export default function About() {
                 ].map((item) => (
                   <div
                     key={item.label}
-                    className="flex flex-col items-center justify-center px-6 sm:px-10 py-4 min-w-[6rem]"
+                    className="flex flex-1 sm:flex-none flex-col items-center justify-center px-4 sm:px-10 py-4 min-w-[5rem] sm:min-w-[6rem]"
                   >
                     <div
                       className="font-serif italic font-black text-2xl sm:text-3xl md:text-4xl text-gold leading-none"

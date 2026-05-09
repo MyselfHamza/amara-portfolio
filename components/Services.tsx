@@ -36,7 +36,7 @@ export default function Services() {
           </Reveal>
 
           <Reveal>
-            <h2 className="font-display font-black text-foreground text-5xl md:text-7xl leading-[0.92] text-left text-balance" style={{ letterSpacing: "-0.04em", fontWeight: 900 }}>
+            <h2 className="font-display font-black text-foreground text-4xl sm:text-5xl md:text-7xl leading-[0.92] text-left text-balance" style={{ letterSpacing: "-0.04em", fontWeight: 900 }}>
               I design decks that{" "}
               <span className="font-serif italic text-coral" style={{ letterSpacing: "-0.02em", fontWeight: 700 }}>
                 win the room.
@@ -83,7 +83,7 @@ export default function Services() {
                     }`}
                   >
                     <span
-                      className="block font-display font-black leading-none text-7xl sm:text-8xl md:text-[8rem] lg:text-[10rem] transition-all duration-500 ease-out group-hover:-translate-y-1 group-hover:tracking-tighter services-number"
+                      className="block font-display font-black leading-none text-6xl sm:text-8xl md:text-[8rem] lg:text-[10rem] transition-all duration-500 ease-out group-hover:-translate-y-1 group-hover:tracking-tighter services-number"
                       style={{ fontVariantNumeric: "tabular-nums" }}
                     >
                       {number}

@@ -63,7 +63,7 @@ function ProjectModal({
         exit={{ opacity: 0, y: 20, scale: 0.97 }}
         transition={{ duration: 0.4, ease }}
         onClick={(e) => e.stopPropagation()}
-        className="relative z-10 w-full max-w-6xl mx-4 my-8 lg:my-12 flex flex-col max-h-[calc(100vh-4rem)] lg:max-h-[calc(100vh-6rem)]"
+        className="relative z-10 w-full max-w-6xl mx-3 sm:mx-4 my-4 sm:my-8 lg:my-12 flex flex-col max-h-[calc(100dvh-2rem)] sm:max-h-[calc(100dvh-4rem)] lg:max-h-[calc(100dvh-6rem)]"
         style={{ boxShadow: "0 40px 90px -20px rgba(28,26,23,0.55)" }}
       >
         {/* Top bar */}
@@ -140,7 +140,7 @@ function ProjectModal({
               <img
                 src={(project as Project & { image?: string }).image ?? ""}
                 alt={project.title}
-                className="w-full h-auto max-h-[78vh] object-contain rounded-md ring-1 ring-gold/20 bg-black"
+                className="w-full h-auto max-h-[60dvh] sm:max-h-[70dvh] object-contain rounded-md ring-1 ring-gold/20 bg-black"
               />
             </div>
           </div>

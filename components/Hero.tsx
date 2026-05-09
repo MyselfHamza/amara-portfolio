@@ -152,7 +152,7 @@ export default function Hero() {
               {...fadeUp(0.15)}
               className="font-display font-black text-background leading-[0.82]"
               style={{
-                fontSize: "clamp(5rem, 15vw, 15rem)",
+                fontSize: "clamp(3rem, 18vw, 15rem)",
                 letterSpacing: "-0.04em",
                 fontWeight: 900,
                 textWrap: "balance",
@@ -270,8 +270,8 @@ export default function Hero() {
           </div>
 
           {/* RIGHT — cols 8–12 — DECK THUMBNAIL STACK (no profile photo) */}
-          <div className="lg:col-span-5 order-1 lg:order-2 relative">
-            <div className="relative mx-auto lg:mx-0 aspect-[4/5] w-full max-w-[420px] lg:max-w-none">
+          <div className="lg:col-span-5 order-1 lg:order-2 relative overflow-hidden lg:overflow-visible">
+            <div className="relative mx-auto lg:mx-0 aspect-[4/5] w-full max-w-[320px] sm:max-w-[400px] lg:max-w-none">
               {/* Tinted glow under stack */}
               <div
                 aria-hidden="true"

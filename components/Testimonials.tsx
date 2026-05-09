@@ -60,7 +60,7 @@ export default function Testimonials() {
                   {/* Giant quote watermark */}
                   <span
                     aria-hidden="true"
-                    className="absolute top-3 left-4 font-serif text-[6rem] leading-none text-coral/[0.08] select-none pointer-events-none"
+                    className="absolute top-3 left-4 font-serif text-[4rem] sm:text-[6rem] leading-none text-coral/[0.08] select-none pointer-events-none"
                   >
                     ❝
                   </span>
