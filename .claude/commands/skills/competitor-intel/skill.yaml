@@ -1,0 +1,35 @@
+name: annual-report-ci
+version: 1.0.0
+description: >
+  Analyses company annual reports and financial results for competitive
+  intelligence. Extracts KPIs, runs ratio analysis, and interprets strategic
+  positioning — designed for product and operations leaders who need insight
+  from financial data without a finance background.
+author: Terry Webb
+repository: https://github.com/terryawebb/claude-skills-competitor-intel
+license: Apache-2.0
+
+triggers:
+  - "analyse [company] annual report"
+  - "compare [companies] financials"
+  - "pull the numbers from [company]'s results"
+  - "what do the financials say about [company]"
+  - "run the metrics on [company]"
+  - "deep dive on [company] annual report"
+  - "competitive analysis of [companies]"
+  - "what's [company]'s ROCE / gross margin / working capital"
+  - pasting financial figures and asking for derived metrics
+  - pasting financial figures and asking for ratio analysis
+  - pasting financial figures and asking for strategic interpretation
+
+compatibility:
+  claude_ai: true
+  claude_code: true
+  api: true
+
+tags:
+  - competitive-intelligence
+  - finance
+  - annual-reports
+  - ratio-analysis
+  - product-operations

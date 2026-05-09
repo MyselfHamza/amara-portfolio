@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_tabs",
+      "PowerShell(npx tsc --noEmit 2>&1)",
+      "PowerShell($z = \"c:\\\\Users\\\\Hamza\\\\OneDrive - University of Greenwich\\\\Documents\\\\Zara website for portfolio\"; $h = \"c:\\\\Users\\\\Hamza\\\\OneDrive - University of Greenwich\\\\Documents\\\\Hamza website for portfolio\"; $files = @\\(\"app\\\\layout.tsx\",\"app\\\\globals.css\",\"app\\\\icon.svg\",\"components\\\\Hero.tsx\",\"components\\\\Navbar.tsx\",\"components\\\\LogoStrip.tsx\",\"components\\\\Services.tsx\",\"components\\\\Portfolio.tsx\",\"components\\\\About.tsx\",\"components\\\\Process.tsx\",\"components\\\\Testimonials.tsx\",\"components\\\\Contact.tsx\",\"components\\\\Footer.tsx\",\"components\\\\BackToTop.tsx\"\\); foreach \\($f in $files\\) { Copy-Item \"$z\\\\$f\" \"$h\\\\$f\" -Force; Write-Host \"Copied: $f\" })",
+      "mcp__playwright__browser_resize"
+    ]
+  }
+}
