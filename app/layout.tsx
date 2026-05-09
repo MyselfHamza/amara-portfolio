@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Pitch decks that win rooms. 5+ years, 500+ projects, 4.9 rating from 580 clients. Trusted by Sky, Acer, and National Grid.",
   authors: [{ name: "Amara" }],
   creator: "Amara",
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: "/icon.svg" },
   openGraph: {
     title: "Amara — Presentation Designer & Pitch Deck Specialist",
     description:
