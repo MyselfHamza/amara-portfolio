@@ -112,41 +112,11 @@ export default function Hero() {
       {/* Navbar spacer */}
       <div className="h-[64px] sm:h-[72px]" />
 
-      {/* ===== EDITORIAL TOP META ROW ===== */}
-      <motion.div
-        {...fadeUp(0.05)}
-        className="relative z-10 w-full max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-12 pt-2"
-      >
-        <div className="flex items-center justify-between gap-6 border-b border-background/10 pb-4">
-          <span className="font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-background/55">
-            Issue 01 · Pitch decks · 2026
-          </span>
-          <span className="hidden sm:inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.28em] text-background/55">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-coral opacity-70" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-coral" />
-            </span>
-            Studio · online
-          </span>
-        </div>
-      </motion.div>
-
       {/* ===== MAIN CONTENT — magazine cover, asymmetric 12-col ===== */}
       <div className="relative z-10 flex-1 w-full max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-12 py-8 lg:py-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
           {/* LEFT — cols 1–7 */}
           <div className="lg:col-span-7 order-2 lg:order-1">
-            {/* Tiny kicker */}
-            <motion.div
-              {...fadeUp(0.08)}
-              className="flex items-center gap-3 mb-5 sm:mb-7"
-            >
-              <span className="h-px w-8 bg-coral" />
-              <span className="font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-coral">
-                Presentation designer
-              </span>
-            </motion.div>
-
             {/* AMARA wordmark — massive, left-aligned */}
             <motion.h1
               {...fadeUp(0.15)}
@@ -281,15 +251,6 @@ export default function Hero() {
                     "radial-gradient(ellipse at center, rgba(181,137,76,0.35) 0%, rgba(169,68,56,0.18) 45%, transparent 75%)",
                 }}
               />
-
-              {/* Mono caption above stack */}
-              <motion.div
-                {...fadeUp(0.15)}
-                className="absolute -top-2 left-0 right-0 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.28em] text-background/45 z-40"
-              >
-                <span>Selected work</span>
-                <span>03 of 500+</span>
-              </motion.div>
 
               {/* Deck cards */}
               {deckStack.map((d, i) => (
